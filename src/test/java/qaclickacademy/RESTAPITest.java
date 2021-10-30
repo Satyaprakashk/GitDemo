@@ -14,6 +14,8 @@ public class RESTAPITest {
 		System.out.println("postJira6");
 		System.out.println("postJira8");
 		System.out.println("postJira9");
+		System.out.println("postJira11");
+		System.out.println("postJira12");
 		
 	}
 	
@@ -21,5 +23,10 @@ public class RESTAPITest {
 	public void deleteTwitter()
 	{
 		System.out.println("deleteTwitter");	
+	}
+	@Test
+	public void addTwitter()
+	{
+		System.out.println("addTwitter");	
 	}
 }
